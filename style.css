@@ -1,0 +1,64 @@
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+#myHead{
+    color: rgba(139, 90, 31, 0.71);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(200, 172, 137);
+    border-radius: 50px;
+    padding: 50px;
+}
+#container p{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px;
+    color: beige;
+}
+#buttons {
+    background-color: rgb(204, 168, 123);
+    padding: 50px;
+    border-radius: 50px;
+}
+#startBtn{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 150, 84);
+    cursor: pointer;
+}
+#startBtn:hover{
+    background-color: rgb(92, 150, 20);
+}
+#stopBtn{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 59, 43);
+    cursor: pointer;
+}
+#stopBtn:hover{
+    background-color: rgb(150, 59, 84);
+}
+
+#clearBtn{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 86, 126);
+    cursor: pointer;
+}
+#clearBtn:hover{
+    background-color: rgb(53, 86, 200);
+}
